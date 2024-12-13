@@ -1,0 +1,30 @@
+ <html>
+ <body> 
+ <style>
+ </style>
+ 
+ <script>
+ function res(){
+document.getElementById("resim1").style.width="50";
+document.getElementById("resim1").style.height="50";
+}
+function res1(){
+document.getElementById("resim1").style.width="100";
+document.getElementById("resim1").style.height="100";
+}
+function res2(){
+document.getElementById("resim1").style.width="150";
+document.getElementById("resim1").style.height="150";
+}
+ 
+ </script>
+ <div id="galeri">
+<img src="hey.png" id="resim1" width="180px" height="180px">
+</div>
+<div>
+<input type="button" onclick="res()" value="Resim 1">
+<input type="button" onclick="res1()" value="Resim 2">
+<input type="button" onclick="res2()" value="Resim 3">
+</div>
+ </body>
+ </html>
